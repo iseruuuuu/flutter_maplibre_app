@@ -21,21 +21,6 @@ A minimal Flutter application that renders a MapLibre GL map centered on Tokyo S
 
 > Note: Platform support primarily targets iOS and Android via `maplibre_gl`.
 
-## Getting Started
-
-1. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
-2. (iOS only) Install CocoaPods dependencies:
-   ```bash
-   cd ios && pod install && cd -
-   ```
-3. Run on a device or simulator/emulator:
-   ```bash
-   flutter run -d ios      # iOS
-   flutter run -d android  # Android
-   ```
 
 ## Configuration
 
@@ -57,10 +42,6 @@ MapLibreMap(
 
 Replace the `styleString` with your own MapLibre style URL as needed.
 
-## Troubleshooting
-
-- iOS build issues: ensure you have run `pod install` inside the `ios` directory.
-- If using location features later, remember to add the appropriate iOS/Android permissions. (This template does not request location permissions by default.)
 
 ## Acknowledgements
 
